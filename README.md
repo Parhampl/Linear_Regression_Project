@@ -10,13 +10,18 @@ Each approach is accompanied by visualizations to illustrate the results on trai
 
 ## Folder Structure
 ```
+📂 Codes
+├── data_for_linearregression_tamrin.mat
+├── Neural_Network_Model.m
+├── RegressionModel2.m
+
 📂 Images
 ├── 📂 Neural_Network_Model_Results
-│   ├── train.png
-│   ├── val.png
-│   ├── test.png
+│   ├── Train_Results.png
+│   ├── Validation_Results.png
+│   ├── Test_Set_results.png
 ├── 📂 RegressionModel
-│   ├── RegressionfitImage.png
+│   ├── Linear_Regression_Fit.png
 ```
 
 ---
@@ -26,13 +31,13 @@ Each approach is accompanied by visualizations to illustrate the results on trai
 The `Neural_Network_Model.m` script uses the closed-form solution of linear regression to compute weights and biases. Below are the results on the training, validation, and test datasets:
 
 ### Training Set
-![Training Set](Images/Neural_Network_Model_Results/train.png)
+![Training Set](Images/Neural_Network_Model_Results/Train_Results.png)
 
 ### Validation Set
-![Validation Set](Images/Neural_Network_Model_Results/val.png)
+![Validation Set](Images/Neural_Network_Model_Results/Validation_Results.png)
 
 ### Test Set
-![Test Set](Images/Neural_Network_Model_Results/test.png)
+![Test Set](Images/Neural_Network_Model_Results/Test_Set_results.png)
 
 ---
 
@@ -40,7 +45,7 @@ The `Neural_Network_Model.m` script uses the closed-form solution of linear regr
 
 The `RegressionModel.m` script uses gradient descent to compute weights and biases iteratively. The fitted line for the entire dataset is shown below:
 
-![Regression Fit](Images/RegressionModel/RegressionfitImage.png)
+![Regression Fit](Images/RegressionModel/Linear_Regression_Fit.png)
 
 ---
 
