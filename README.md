@@ -1,8 +1,8 @@
 # Linear Regression Models in MATLAB
 
 This repository demonstrates two approaches to implementing linear regression using MATLAB: 
-1. A **Closed-Form Solution** (in `Neural_Network_Model.m`)
-2. A **Gradient Descent Approach** (in `RegressionModel.m`)
+1. A **Closed-Form Solution** (in `Codes/Neural_Network_Model.m`)
+2. A **Gradient Descent Approach** (in `Codes/RegressionModel.m`)
 
 Each approach is accompanied by visualizations to illustrate the results on training, validation, and test datasets.
 
