@@ -28,7 +28,7 @@ Each approach is accompanied by visualizations to illustrate the results on trai
 
 ## Neural_Network_Model (Closed-Form Solution)
 
-The `Neural_Network_Model.m` script uses the closed-form solution of linear regression to compute weights and biases. Below are the results on the training, validation, and test datasets:
+The `Codes/Neural_Network_Model.m` script uses the closed-form solution of linear regression to compute weights and biases. Below are the results on the training, validation, and test datasets:
 
 ### Training Set
 ![Training Set](Images/Neural_Network_Model_Results/Train_Results.png)
@@ -43,7 +43,7 @@ The `Neural_Network_Model.m` script uses the closed-form solution of linear regr
 
 ## RegressionModel (Gradient Descent)
 
-The `RegressionModel.m` script uses gradient descent to compute weights and biases iteratively. The fitted line for the entire dataset is shown below:
+The `Codes/RegressionModel.m` script uses gradient descent to compute weights and biases iteratively. The fitted line for the entire dataset is shown below:
 
 ![Regression Fit](Images/RegressionModel/Linear_Regression_Fit.png)
 
@@ -53,11 +53,11 @@ The `RegressionModel.m` script uses gradient descent to compute weights and bias
 
 1. **Prerequisites**:
    - MATLAB installed on your system.
-   - `data_for_linearregression_tamrin.mat` file in the root directory.
+   - `Codes/data_for_linearregression_tamrin.mat` file in the root directory.
 
 2. **Steps**:
-   - Run the `Neural_Network_Model.m` script for the closed-form solution.
-   - Run the `RegressionModel.m` script for the gradient descent approach.
+   - Run the `Codes/Neural_Network_Model.m` script for the closed-form solution.
+   - Run the `Codes/RegressionModel.m` script for the gradient descent approach.
 
 3. **Output**:
    - Both scripts generate plots that are saved in the respective folders inside `Images`.
